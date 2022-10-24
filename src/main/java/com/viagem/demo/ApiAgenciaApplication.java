@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EntityScan(basePackages = { "com.viagem.model.entity" })
 @EnableJpaRepositories(basePackages = { "com.viagem.repositories" })
-@ComponentScan(basePackages = { "com.viagem.controller", "com.viagem.services", "com.viagem.services.impl" })
+@ComponentScan(basePackages = { "com.viagem.controller", "com.viagem.services", "com.viagem.services.impl", "com.viagem.security" })
 @SpringBootApplication
 public class ApiAgenciaApplication {
 

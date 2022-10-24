@@ -7,5 +7,6 @@ import com.viagem.model.entity.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Long> {
-
+	
+	
 }
